@@ -54,3 +54,36 @@ Critical success factors include:
 - Fast loading times
 - Accessible color contrasts and font sizes
 - Clear calls-to-action at every step
+
+- ## UI/UX Design Planning
+
+### Figma Design Specifications
+
+#### Color Styles
+- **Primary**: `#FF5A5F` (Airbnb's signature coral/pink)
+- **Secondary**: `#008489` (Teal for secondary actions)
+- **Background**: `#FFFFFF` (Pure white)
+- **Primary Text**: `#222222` (Dark gray for main content)
+- **Secondary Text**: `#717171` (Medium gray for less important text)
+
+#### Typography
+- **Primary Font**: 
+  - Family: Circular
+  - Weight: Medium (500)
+  - Size: 16px (base body text)
+- **Headings**:
+  - Family: Circular
+  - Weight: Bold (700)
+  - Sizes: 24px-32px (h2-h1)
+- **Secondary Text**:
+  - Family: Circular
+  - Weight: Book (400)
+  - Size: 14px (captions, helper text)
+
+### Importance of Design Properties
+Identifying and documenting design properties is crucial because:
+1. **Consistency** - Ensures uniform styling across all pages and components
+2. **Efficiency** - Allows developers to implement styles without guesswork
+3. **Scalability** - Makes it easy to update the design system globally
+4. **Brand Identity** - Maintains visual coherence with Airbnb's recognizable aesthetic
+5. **Team Alignment** - Provides single source of truth for designers and developers
