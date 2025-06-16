@@ -106,3 +106,23 @@ Identifying and documenting design properties is crucial because:
 - Frontend ↔ Backend: API contract agreements and data flow integration
 - Developers ↔ QA: Test case reviews and bug resolution workflows
 - All Roles ↔ Scrum Master: Daily standups and sprint planning alignment
+
+
+ ## UI Component Patterns
+
+### Planned Reusable Components
+
+#### 1. Navbar (`<Header />`)
+- **Features**:
+  - Airbnb-branded logo with home link
+  - Intelligent search bar with location/date autocomplete
+  - User profile dropdown (login/account management)
+  - Mobile-responsive hamburger menu
+- **Props**:
+  ```js
+  {
+    user: Object,       // Current user data
+    sticky: Boolean,    // Fixed positioning
+    transparent: Boolean // For landing pages
+  }
+ 
