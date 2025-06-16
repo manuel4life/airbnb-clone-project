@@ -125,4 +125,22 @@ Identifying and documenting design properties is crucial because:
     sticky: Boolean,    // Fixed positioning
     transparent: Boolean // For landing pages
   }
- 
+
+{
+  listing: {
+    id: String,
+    title: String,
+    price: Number,
+    rating: Number,
+    images: Array
+  },
+  onFavorite: Function // Callback
+}
+
+**Pro Tip**: For team projects, consider adding:
+```markdown
+### Component Development Workflow
+1. Design approval in Figma
+2. Storybook isolation development
+3. Peer review (UX + Code)
+4. Integration testing
