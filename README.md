@@ -87,3 +87,22 @@ Identifying and documenting design properties is crucial because:
 3. **Scalability** - Makes it easy to update the design system globally
 4. **Brand Identity** - Maintains visual coherence with Airbnb's recognizable aesthetic
 5. **Team Alignment** - Provides single source of truth for designers and developers
+
+## Project Roles and Responsibilities
+
+| Role | Responsibilities | Contribution to Project Success |
+|------|-----------------|--------------------------------|
+| **Project Manager** | Oversees timeline, coordinates team, manages deliverables, tracks progress | Ensures project stays on schedule and meets all milestones |
+| **Frontend Developers** | Implements UI components, ensures responsive design, optimizes performance | Creates the user-facing interface that directly impacts customer experience |
+| **Backend Developers** | Builds APIs, manages database, implements business logic, ensures security | Provides the foundational systems that power all application functionality |
+| **Designers** | Creates mockups, maintains design system, ensures UX quality, conducts user research | Delivers intuitive and visually appealing interfaces that drive engagement |
+| **QA/Testers** | Writes test cases, performs testing (unit, integration, E2E), reports bugs | Guarantees product reliability and identifies issues before release |
+| **DevOps Engineers** | Manages deployment, CI/CD pipeline, server infrastructure, monitoring | Enables seamless updates and maintains system stability at scale |
+| **Product Owner** | Defines requirements, prioritizes features, represents stakeholder interests | Aligns development with business goals and user needs |
+| **Scrum Master** | Facilitates agile processes, removes blockers, organizes ceremonies (standups, retrospectives) | Improves team efficiency and maintains productive workflow |
+
+### Key Collaboration Points:
+- Designers ↔ Frontend: Handoff Figma designs and design system components
+- Frontend ↔ Backend: API contract agreements and data flow integration
+- Developers ↔ QA: Test case reviews and bug resolution workflows
+- All Roles ↔ Scrum Master: Daily standups and sprint planning alignment
